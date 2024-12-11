@@ -301,6 +301,9 @@ img[draggable="true"]:active {
 }
 
 @media (max-width: 950px) {
+    #welcome-section {
+        flex-direction:column-reverse;
+    }
     .about-container {
         flex-direction: column;
         align-items: center;

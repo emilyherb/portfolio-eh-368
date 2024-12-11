@@ -99,15 +99,16 @@ h5 {
 
 #welcome-section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
-    padding: 50px;
-    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Ensures full-screen coverage */
+    height: auto; /* Allows the section to expand as needed */
     box-sizing: border-box;
     background-color: var(--white);
 }
-
 #tagline {
     flex: 1; /* Allows the div to take up available space */
     padding: 20px;

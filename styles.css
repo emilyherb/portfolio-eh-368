@@ -126,6 +126,7 @@ h5 {
 /*ABOUT SECTION*/
 #about-me {
     background-image: url("https://i.ibb.co/jw7hx59/Untitled-design-1.png");
+    height: 100vh;
 }
 
 p {
@@ -137,7 +138,7 @@ p {
     margin: 40px 0 40px 0;
     font-size: 3rem;
     color: black;
-    padding-top: 12px;
+    padding-top: 30px;
 }
 
 .about-container {
@@ -157,12 +158,13 @@ p {
 #strip img {
     max-width: 90%;
     height: auto;
+    margin:50px 50px;
 }
 
 #info {
     flex: 2;
     min-width: 300px;
-    max-width: 500px;
+    max-width: 450px;
     text-align: left;
     margin:auto;
 }
@@ -215,23 +217,23 @@ a {
 }
 
 #socialmedia {
-    top: 25%;
+    top: 14%;
     right: 30%;
 }
 
 #webdesign {
-    top: 25%;
+    top: 14%;
     left: 20%;
 }
 
 #photography {
-    top: 45%;
+    bottom: 55%;
     left: 20%;
 }
 
 #graphics {
-    top: 49%;
-    right: 31%;
+    bottom: 48%;
+    right: 33%;
 }
 
 #projects a {
@@ -306,9 +308,18 @@ img[draggable="true"]:active {
 
     #info {
         text-align: center;
+        max-width:600px;
+    }
+    #strip img{
+        max-width: 35%;
+        margin-top:5px;
+        margin-bottom:0;
+        padding:0;
     }
 
     #about-me p {
         padding-bottom: 12px;
+        font-size:1rem;
+    
     }
 }

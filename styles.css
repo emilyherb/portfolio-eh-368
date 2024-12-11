@@ -320,17 +320,19 @@ img[draggable="true"]:active {
     #info {
         text-align: center;
         max-width:600px;
+        margin-top:0;
+        padding-top:0;
     }
     #strip img{
-        max-width: 35%;
-        margin-top:5px;
+        max-width: 32%;
+        margin-top:2px;
         margin-bottom:0;
         padding:0;
     }
 
     #about-me p {
-        padding-bottom: 12px;
-        font-size:1rem;
+        padding-bottom: 2px;
+        font-size:.95rem;
     
     }
 }

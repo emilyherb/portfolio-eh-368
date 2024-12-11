@@ -124,9 +124,17 @@ h5 {
 }
 
 /*ABOUT SECTION*/
+
 #about-me {
+    position: relative; /* Ensures child elements are positioned relative to this container */
+    overflow: hidden; /* Prevents content from overflowing the section */
+    height: 100vh; /* Keeps it consistent with the section height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Ensures content stays vertically centered */
+    padding: 20px;
+    box-sizing: border-box; /* Includes padding in height calculation */
     background-image: url("https://i.ibb.co/jw7hx59/Untitled-design-1.png");
-    height: 100vh;
 }
 
 p {
@@ -243,7 +251,7 @@ a {
     font-size: 1.2rem;
 }
 
-#projects a:hover {
+#hprojects a:hover {
     color: var(--pink);
 }
 #projects a:active {
